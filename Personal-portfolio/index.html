@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>
+         Software Engineer
+        </p>
+        <h1>Hi , I'm <span>Salih</span><br>Demir from Istanbul</h1>
+        </div>
+    </div>
+</div>    
+<!-- -------about----- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am here to start my career as a junior software engineer with a deep interest and passion for the software world. It is very important for me to gain experience by using the theoretical knowledge I gained during my education in real-world applications. As a dedicated junior programmer,
+                     I have a strong desire to follow technological innovations and 
+                     improve myself accordingly. I enjoy working collaboratively but can a
+                     lso run projects independently. I also believe that my problem-solving ability
+                      and communication skills have motivated me to do more.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education </p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Network & System Specialist</span><br>Information Technology</li>
+                        <li><span>Android Development</span><br>Mobile App Development</li>
+                        <li><span>React Native Development</span><br>Building Android/IOS apps </li>
+                        <li><span>Web Designer</span><br>Building Creative Websites  </li>
+                        <li><span>Skills</span><br>Problem-Solving </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Network and System Specialist at Novartis</li>
+                        <li><span>2023-2023</span><br>Information Technology Help Desk at Inditex</li>
+                        <li><span>2023-2023</span><br>Android Developer Intern at Mobven Technology member of Payten</li>
+                        <li><span>2022-2023</span><br>Information Technology Intern at Diversey </li>
+                        <li><span>2021-2022</span><br>React Native Developer Intern at Ranna Digital Works</li>
+                        <li><span>2016-2017</span><br>Information Technology Intern at Casper Turkey</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li><span>2020</span><br>Bachelor's degree, Software Engineering</li>
+                        <li><span>2018</span><br>Associate's degree, Computer Programming</li>
+                        <li><span>2012</span><br>Ataşehir Anatolian Vocational High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------services ---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="servcies-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                 <p>With my web design expertise, I create aesthetic and functional websites that will enable brands to stand out in the digital world.
+                     By prioritizing the user experience, I closely follow modern trends and design original and fluid interfaces. In every project, 
+                     I aim to strengthen the digital identity of brands by offering solutions that visitors can easily navigate and interact with.🚀
+                </p>
+                <!--
+                Web tasarım uzmanlığım ile, markaların dijital dünyada öne çıkmalarını sağlayacak estetik ve işlevsel web siteleri oluşturuyorum. 
+                Kullanıcı deneyimini ön planda tutarak, modern trendleri yakından takip edip, özgün ve akıcı arayüzler tasarlıyorum. 
+                Her projede, ziyaretçilerin kolaylıkla gezinebileceği ve etkileşimde bulunabileceği çözümler sunarak, markaların dijital kimliğini güçlendirmeyi hedefliyorum.🚀
+                
+                -->
+                    <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Network & System Specialist</h2>
+                <p>
+                    My experience as a network and systems expert helps companies secure their technology infrastructure,efficiently and seamlessly.
+                    Network configurations,with my problem solving skills in a wide range of areas from systems management to all kinds of technical challenges.
+                    I focus on creating solutions that enable users and businesses to seamlessly integrate 
+                    I am constantly following and implementing the most up-to-date technologies to ensure a pleasant experience.🚀
+
+
+                    </p>
+            <!-- 
+            Network ve sistem uzmanlığı konusunda sahip olduğum deneyim, şirketlerin teknoloji altyapılarını güvenli, 
+            verimli ve kesintisiz bir şekilde yönetmelerine olanak tanıyor. Ağ yapılandırmalarından,
+             sistem yönetimine kadar geniş bir yelpazede sorun çözme becerilerimle, her türlü teknik zorluğa 
+             çözüm üretmeye odaklanıyorum. Kullanıcıların ve işletmelerin dijital sistemlerde sorunsuz 
+            bir deneyim yaşaması için sürekli olarak en güncel teknolojileri takip ediyor ve uyguluyorum.🚀
+            -->
+
+
+                    <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Mobile App Design</h2>
+                <p>For me, mobile app design is not just about aesthetics, it is also a process that aims to maximize the user experience.
+                    By designing user-centered, functional and modern interfaces, we ensure that apps not only look good, but also provide a fluid and intuitive experience. 
+                    Thanks to my knowledge of React Native and Android development, I am able to harmonize my designs with the technical infrastructure 
+                    I create mobile applications. By combining technology and design, I aim to develop applications that make people's lives easier.🚀
+                    </p>
+                    <!--
+                    Mobil uygulama tasarımı benim için sadece estetikten ibaret değil, aynı zamanda kullanıcı deneyimini en üst seviyeye çıkarmayı amaçlayan bir süreçtir.
+                    Kullanıcı odaklı, işlevsel ve modern arayüzler tasarlayarak, uygulamaların sadece güzel görünmesini değil, aynı zamanda akıcı ve sezgisel bir deneyim sunmasını 
+                    sağlıyorum. React Native ve Android geliştirme bilgim sayesinde, tasarımlarımı teknik altyapıyla uyumlu hale getirerek, hem performanslı hem de etkileyici 
+                    mobil uygulamalar oluşturuyorum. Teknolojiyi ve tasarımı birleştirerek, insanların hayatını kolaylaştıran uygulamalar geliştirmeyi hedefliyorum.🚀
+                    -->
+
+                    <a href="#">Learn more</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------porfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Service Project with the nearest route</h3>
+                    <p>Service Project with the Nearest Route, kullanıcıların en hızlı ve en verimli şekilde hizmet sağlayıcılara ulaşmasını amaçlayan bir projedir. Akıllı rota optimizasyonu sayesinde, en yakın servis noktalarını belirleyerek zamandan tasarruf etmeyi sağlıyorum.
+                         Kullanıcı dostu arayüzü ve güçlü altyapısıyla, bu projeyle hizmet sektöründe verimliliği artırmayı hedefledim." 🚀</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Marvel Movie App</h3>
+                    <p>Marvel Movie Mobile app, Marvel evrenine dair en güncel bilgilere ve içeriklere kolayca ulaşmanızı sağlayan bir platformdur.
+                         Film rehberleri, karakter bilgileri ve en son haberlerle, Marvel hayranlarına özel bir deneyim sunmayı amaçladım. 
+                        Kullanıcı dostu arayüzü ve akıcı performansıyla, Marvel dünyasını keşfetmek artık çok daha keyifli! 🚀</p>
+                        <a href="https://github.com/salihdemiir/MarvelApp-master"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Health Tourism Website</h3>
+                    <p>Health Tourism Website, sağlık hizmetleri ve turizmi bir araya getirerek uluslararası hastalar 
+                        için güvenilir bir rehber sunmayı amaçlıyor. Kullanıcı dostu arayüzü sayesinde tedavi seçenekleri,
+                         uzman doktorlar ve hastaneler hakkında detaylı bilgilere kolayca ulaşabilirsiniz. 
+                         Teknolojiyi sağlıkla buluşturarak, hastaların en iyi hizmeti almasını sağlamak için bu projeyi takım arkadaşlarım ile hayata geçirdik." 🚀</p>
+                        <a href="https://github.com/salihdemiir/Healer-Go-Turkey"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!--------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>salihdemiir@hotmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+90536 4** ** 19</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/salihdemiir53/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/SalihDemiir/"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/demirsalih/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/salih-demiir/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/salihdemiir"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/Salih-2025 CV.pdf" download class="btn btn2">Download CV</a>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Lütfen yukarıdaki boş kısımları doldurunuz.</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Salih Demir <i class="fa-solid fa-heart"></i> by Salih Demir</p>
+    </div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+
+sidemenu.style.right = "-200px";
+}
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQ4zpf5dgcKZr4rM4CYcuCiUTOrukCHQ7284Fd8xF1AyEjANzhlPs0ltuCm5xsUjrGvQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
