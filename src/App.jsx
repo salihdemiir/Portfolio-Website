@@ -492,7 +492,7 @@ function App() {
             <div>
               <div className="intro">
                 <h1>Salih Demir</h1>
-                <h2>Junior Software Engineer % Cyber Security Enthusiast </h2>
+                <h2>Junior Software Engineer | Cyber Security Enthusiast </h2>
                 <p>
                   I build and support reliable technology solutions with a focus on enterprise systems,
                   troubleshooting, and continuous growth in software engineering and cybersecurity.
