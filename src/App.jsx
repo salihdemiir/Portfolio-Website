@@ -32,7 +32,7 @@ function CVIcon() {
 
 function ArrowIcon() {
   return (
-    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
       <path d="M7 17 17 7" />
       <path d="M8 7h9v9" />
     </svg>
@@ -46,12 +46,12 @@ function App() {
       title: "Information Technology Specialist",
       company: "Arvato (Bertelsmann)",
       description:
-        "Providing technical support and maintaining IT infrastructure across warehouse and office environments. Focused on system uptime, hardware and software installation, troubleshooting network and user issues, and coordinating with global IT teams for smooth operations.",
+        "Providing technical support and maintaining IT infrastructure across warehouse and office environments. Ensuring system uptime, troubleshooting hardware, software, network, and user issues, and coordinating with global IT teams for operational continuity.",
       highlights: [
         "Support enterprise infrastructure across warehouse and office environments",
         "Troubleshoot hardware, software, network, and user-related issues",
         "Coordinate with global IT teams on incidents and operational requests",
-        "Contribute to infrastructure stability and daily operational continuity",
+        "Contribute to infrastructure stability and daily business continuity",
       ],
       tech: ["IT Infrastructure", "Technical Support", "Networking", "System Maintenance"],
     },
@@ -64,7 +64,7 @@ function App() {
       highlights: [
         "Managed user account operations on Microsoft Entra ID (Azure AD)",
         "Resolved incidents and requests through the ServiceNow platform",
-        "Supported VPN connections via Check Point",
+        "Supported VPN connections through Check Point",
         "Provided support for Microsoft 365, Teams, Outlook, Office, Power BI, and Copilot",
       ],
       tech: ["Entra ID", "Azure AD", "ServiceNow", "Check Point VPN", "Microsoft 365"],
@@ -74,12 +74,12 @@ function App() {
       title: "IT Specialist",
       company: "Inditex",
       description:
-        "Provided comprehensive L2 IT support for nationwide retail operations across brands such as Zara, Bershka, Pull&Bear, Massimo Dutti, Zara Home, and Lefties. Gained hands-on experience in retail technology environments and fast-paced incident resolution.",
+        "Provided comprehensive L2 IT support for nationwide retail operations across brands such as Zara, Bershka, Pull&Bear, Massimo Dutti, Zara Home, Lefties, and others. Built strong experience in fast-paced retail technology environments.",
       highlights: [
         "Supported multiple nationwide retail brands under the Inditex group",
         "Handled L2 technical support in a large-scale retail environment",
         "Resolved user-facing and operational IT issues efficiently",
-        "Strengthened troubleshooting and support discipline in business-critical operations",
+        "Strengthened troubleshooting discipline in business-critical operations",
       ],
       tech: ["L2 Support", "Retail IT", "Troubleshooting", "End User Support"],
     },
@@ -88,13 +88,70 @@ function App() {
       title: "Android Developer Intern",
       company: "Mobven",
       description:
-        "Contributed to Android development workflows, supported the team on project tasks, and improved understanding of mobile application development in a professional software environment.",
+        "Contributed to Android development workflows, actively supported the Android team, and improved practical knowledge of mobile application development within a professional software environment.",
       highlights: [
         "Worked closely with the Android development team",
         "Contributed to project-based development processes",
-        "Improved mobile software development knowledge in a corporate environment",
+        "Improved understanding of mobile software development workflows",
       ],
       tech: ["Android", "Mobile Development", "Team Collaboration"],
+    },
+    {
+      period: "May 2022 — Apr 2023",
+      title: "Information Technology Intern",
+      company: "Diversey",
+      description:
+        "Worked as an IT Intern for one year in a global corporate environment. Participated in technical support processes, system management, network infrastructure, and user support services while developing problem-solving and corporate IT operations experience.",
+      highlights: [
+        "Supported technical help desk and day-to-day IT operations",
+        "Gained practical experience in system administration and network infrastructure",
+        "Contributed to problem solving across internal IT projects",
+        "Supported SAP-related business requirements and solution suggestions",
+      ],
+      tech: ["IT Support", "Network Infrastructure", "System Management", "SAP Exposure"],
+    },
+    {
+      period: "Nov 2021 — Jan 2022",
+      title: "React Native Developer Intern",
+      company: "Ranna Digital Works",
+      description:
+        "Worked on market and health tourism mobile application projects as a React Native intern. Participated in mobile development processes and improved knowledge in UI, performance optimization, and mobile product workflows.",
+      highlights: [
+        "Contributed to React Native based mobile application projects",
+        "Improved mobile UI and user experience understanding",
+        "Gained hands-on exposure to performance optimization basics",
+      ],
+      tech: ["React Native", "Mobile UI", "Performance", "App Development"],
+    },
+    {
+      period: "Sep 2016 — Jun 2017",
+      title: "IT Intern",
+      company: "Casper Türkiye",
+      description:
+        "Completed a long-term IT internship focused on hardware and software testing, motherboard repair, computer setup, and mobile device installation. Built a strong technical foundation in hands-on troubleshooting and device support.",
+      highlights: [
+        "Supported hardware and software testing operations",
+        "Worked on computer installation and device setup processes",
+        "Gained hands-on experience in technical support workflows",
+        "Strengthened practical troubleshooting and problem-solving skills",
+      ],
+      tech: ["Hardware", "Software Testing", "Technical Support", "Troubleshooting"],
+    },
+  ];
+
+  const education = [
+    {
+      period: "Sep 2020 — Jul 2024",
+      title: "Bachelor's Degree, Software Engineering",
+      company: "Doğuş University",
+      description:
+        "Completed a full-scholarship Software Engineering degree program. Built a strong academic foundation in software development, algorithms, data structures, networking, and technical problem solving.",
+      highlights: [
+        "Graduated from Software Engineering with a full scholarship",
+        "Developed a strong foundation in software and systems thinking",
+        "Participated in communities such as Mühendis Beyinler Kulübü and GDG on Campus Doğuş University",
+      ],
+      tech: ["Software Engineering", "Algorithms", "Data Structures", "Networking"],
     },
   ];
 
@@ -111,20 +168,22 @@ function App() {
     "User & Access Management",
     "Endpoint Support",
     "Technical Documentation",
+    "Hardware & Software Support",
+    "System Administration",
   ];
 
   const projects = [
     {
       title: "Personal Portfolio Website",
       description:
-        "Designed and developed a modern portfolio website to present my IT background, experience, and long-term transition into systems and cybersecurity roles.",
+        "Designed and developed a modern portfolio website to present my IT background, enterprise support experience, and long-term transition into systems and cybersecurity roles.",
       tags: ["React", "Vite", "Responsive UI", "Portfolio"],
       link: "https://www.demirsalih.com.tr/",
     },
     {
-      title: "IT Operations & Support Focus",
+      title: "Professional IT Profile",
       description:
-        "A professional profile built around enterprise IT support, infrastructure operations, identity management, and troubleshooting in corporate environments.",
+        "A professional profile built around enterprise IT support, infrastructure operations, identity management, troubleshooting, and career growth in systems engineering.",
       tags: ["IT Support", "Infrastructure", "Systems", "Operations"],
       link: "https://www.linkedin.com/in/salih-demiir/",
     },
@@ -136,7 +195,7 @@ function App() {
         :root {
           --bg: #0a192f;
           --bg-soft: #112240;
-          --bg-card: rgba(17, 34, 64, 0.55);
+          --bg-card: rgba(17, 34, 64, 0.52);
           --line: rgba(148, 163, 184, 0.12);
           --text: #ccd6f6;
           --muted: #8892b0;
@@ -170,19 +229,19 @@ function App() {
         .app {
           min-height: 100vh;
           background:
-            radial-gradient(circle at 20% 20%, rgba(100, 255, 218, 0.07), transparent 22%),
-            radial-gradient(circle at 80% 10%, rgba(100, 255, 218, 0.04), transparent 18%),
+            radial-gradient(circle at 18% 20%, rgba(100, 255, 218, 0.07), transparent 22%),
+            radial-gradient(circle at 82% 8%, rgba(100, 255, 218, 0.04), transparent 18%),
             var(--bg);
         }
 
         .container {
           width: 100%;
-          max-width: 1180px;
+          max-width: 1240px;
           margin: 0 auto;
-          padding: 0 24px;
+          padding: 0 28px;
           display: grid;
-          grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
-          gap: 64px;
+          grid-template-columns: minmax(300px, 390px) minmax(0, 1fr);
+          gap: 72px;
         }
 
         .sidebar {
@@ -206,7 +265,7 @@ function App() {
         .intro h2 {
           margin: 18px 0 0;
           color: var(--white);
-          font-size: clamp(20px, 2.3vw, 26px);
+          font-size: clamp(20px, 2.4vw, 26px);
           line-height: 1.35;
           font-weight: 700;
         }
@@ -216,7 +275,7 @@ function App() {
           max-width: 32ch;
           color: var(--muted);
           font-size: 17px;
-          line-height: 1.8;
+          line-height: 1.85;
         }
 
         .nav {
@@ -305,10 +364,10 @@ function App() {
         }
 
         .about p {
-          margin: 0 0 18px;
+          margin: 0 0 20px;
           color: var(--muted);
           font-size: 17px;
-          line-height: 1.9;
+          line-height: 1.95;
         }
 
         .about strong {
@@ -316,10 +375,11 @@ function App() {
           font-weight: 700;
         }
 
-        .card {
+        .card,
+        .project-card {
           display: grid;
-          grid-template-columns: 120px minmax(0, 1fr);
-          gap: 22px;
+          grid-template-columns: 140px minmax(0, 1fr);
+          gap: 24px;
           padding: 24px;
           margin-bottom: 18px;
           border-radius: 18px;
@@ -328,14 +388,15 @@ function App() {
           transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
         }
 
-        .card:hover {
+        .card:hover,
+        .project-card:hover {
           background: var(--bg-card);
           border-color: rgba(100, 255, 218, 0.12);
           transform: translateY(-2px);
         }
 
         .period {
-          padding-top: 5px;
+          padding-top: 6px;
           color: var(--muted);
           font-size: 12px;
           font-weight: 700;
@@ -344,7 +405,8 @@ function App() {
           white-space: nowrap;
         }
 
-        .card h3 {
+        .card h3,
+        .project-card h3 {
           margin: 0;
           color: var(--white);
           font-size: 20px;
@@ -352,18 +414,20 @@ function App() {
           font-weight: 700;
         }
 
-        .card h4 {
+        .card h4,
+        .project-card h4 {
           margin: 6px 0 0;
           color: var(--muted);
           font-size: 15px;
           font-weight: 600;
         }
 
-        .card p {
+        .card p,
+        .project-card p {
           margin: 14px 0 0;
           color: var(--muted);
           font-size: 16px;
-          line-height: 1.8;
+          line-height: 1.85;
         }
 
         .highlights {
@@ -374,7 +438,7 @@ function App() {
 
         .highlights li {
           margin-bottom: 8px;
-          line-height: 1.7;
+          line-height: 1.75;
           color: var(--muted);
         }
 
@@ -416,23 +480,6 @@ function App() {
         .skill:hover {
           transform: translateY(-2px);
           border-color: rgba(100, 255, 218, 0.16);
-        }
-
-        .project-card {
-          display: grid;
-          grid-template-columns: 120px minmax(0, 1fr);
-          gap: 22px;
-          padding: 24px;
-          margin-bottom: 18px;
-          border-radius: 18px;
-          border: 1px solid transparent;
-          transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
-        }
-
-        .project-card:hover {
-          background: var(--bg-card);
-          border-color: rgba(100, 255, 218, 0.12);
-          transform: translateY(-2px);
         }
 
         .project-link {
@@ -508,7 +555,7 @@ function App() {
           .container {
             grid-template-columns: 1fr;
             gap: 0;
-            max-width: 760px;
+            max-width: 780px;
           }
 
           .sidebar {
@@ -536,7 +583,7 @@ function App() {
           }
         }
 
-        @media (max-width: 680px) {
+        @media (max-width: 700px) {
           .container {
             padding: 0 18px;
           }
@@ -586,6 +633,7 @@ function App() {
               <nav className="nav">
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
@@ -661,6 +709,36 @@ function App() {
               <h3 className="section-label">Experience</h3>
 
               {experiences.map((item, index) => (
+                <article className="card" key={index}>
+                  <div className="period">{item.period}</div>
+
+                  <div>
+                    <h3>{item.title}</h3>
+                    <h4>{item.company}</h4>
+                    <p>{item.description}</p>
+
+                    <ul className="highlights">
+                      {item.highlights.map((point, i) => (
+                        <li key={i}>{point}</li>
+                      ))}
+                    </ul>
+
+                    <div className="tags">
+                      {item.tech.map((tag, i) => (
+                        <span className="tag" key={i}>
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </section>
+
+            <section id="education" className="section">
+              <h3 className="section-label">Education</h3>
+
+              {education.map((item, index) => (
                 <article className="card" key={index}>
                   <div className="period">{item.period}</div>
 
