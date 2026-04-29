@@ -94,7 +94,7 @@ function Home() {
               <LinkedInIcon />
             </a>
 
-            <a href="mailto:salihdemiir@hotmail.com">
+            <a href="mailto:demirtech@demirsalih.com.tr" target="_blank" rel="noreferrer">  
               <MailIcon />
             </a>
 
