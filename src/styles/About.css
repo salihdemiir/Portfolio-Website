@@ -1,0 +1,161 @@
+.about-page {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.14), transparent 30%),
+    #050816;
+
+  color: white;
+  padding-bottom: 100px;
+}
+
+.about-hero {
+  width: min(1180px, calc(100% - 32px));
+
+  margin: 0 auto;
+
+  padding-top: 170px;
+  padding-bottom: 70px;
+}
+
+.about-hero span {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 10px 18px;
+  border-radius: 999px;
+
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+
+  color: #7dd3fc;
+  font-size: 13px;
+  font-weight: 700;
+
+  margin-bottom: 28px;
+}
+
+.about-hero h1 {
+  max-width: 900px;
+
+  font-size: clamp(42px, 6vw, 72px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+  font-weight: 900;
+}
+
+.about-content {
+  width: min(1180px, calc(100% - 32px));
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+}
+
+.about-card {
+  padding: 40px;
+  border-radius: 30px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.05),
+      rgba(255,255,255,0.025)
+    );
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  backdrop-filter: blur(16px);
+}
+
+.about-card h2 {
+  margin-bottom: 28px;
+
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.about-card p {
+  color: #94a3b8;
+
+  line-height: 2;
+  font-size: 17px;
+
+  margin-bottom: 24px;
+}
+
+.about-stats {
+  display: grid;
+  gap: 22px;
+}
+
+.about-stats div {
+  min-height: 150px;
+
+  padding: 30px;
+  border-radius: 28px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.05),
+      rgba(255,255,255,0.025)
+    );
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  transition: 0.35s ease;
+}
+
+.about-stats div:hover {
+  transform: translateY(-6px);
+
+  border-color: rgba(56, 189, 248, 0.22);
+
+  box-shadow:
+    0 24px 60px rgba(0,0,0,0.28);
+}
+
+.about-stats strong {
+  font-size: 42px;
+  font-weight: 900;
+
+  color: #38bdf8;
+
+  margin-bottom: 10px;
+}
+
+.about-stats span {
+  color: #cbd5e1;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .about-hero {
+    padding-top: 140px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-card {
+    padding: 30px;
+  }
+
+  .about-card h2 {
+    font-size: 34px;
+  }
+
+  .about-stats strong {
+    font-size: 34px;
+  }
+}

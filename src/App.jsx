@@ -1,37 +1,35 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+
 import Home from "./pages/Home";
+import About from "./pages/Experience";
+import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
 import DemirTech from "./pages/DemirTech";
+import Contact from "./pages/Projects";
 
 function App() {
   return (
-    <div className="app-layout">
+    <BrowserRouter>
+      <div className="portfolio-app">
+        <Navbar />
 
-      {/* 🔥 NAVBAR */}
-      <header className="top-header">
-        <Link to="/" className="site-logo">
-          Salih Demir
-        </Link>
-
-        <div className="nav-right">
-          <Link to="/" className="nav-link">
-            Home
-          </Link>
-
-          <Link to="/demirtech" className="demirtech-link">
-            DemirTECH
-          </Link>
-        </div>
-      </header>
-
-      {/* 🔥 CONTENT */}
-      <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/hakkimda" element={<About />} />
+          <Route path="/deneyim" element={<Experience />} />
+          <Route path="/projeler" element={<Projects />} />
+          <Route path="/yetenekler" element={<Skills />} />
           <Route path="/demirtech" element={<DemirTech />} />
+          <Route path="/iletisim" element={<Contact />} />
         </Routes>
-      </main>
 
-    </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,89 +1,58 @@
-import DemirTechCalculator from "../components/DemirTechCalculator";
-import PricingInfo from "../components/PricingInfo";
+import { FaArrowRight } from "react-icons/fa";
+
+import "../styles/DemirTech.css";
 
 function DemirTech() {
   return (
-    <div className="demirtech-page">
-      <nav className="dt-navbar">
-        <a href="/" className="dt-nav-brand">
-          Salih Demir
-        </a>
-
-        <div className="dt-nav-links">
-          <a href="#services">Hizmetler</a>
-          <a href="#calculator">Maliyet Hesapla</a>
-          <a
-            href="https://wa.me/905364375319?text=Merhaba%20DemirTECH%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="dt-nav-cta"
-          >
-            Teklif Al
-          </a>
-        </div>
-      </nav>
-
+    <main className="demirtech-page">
       <section className="demirtech-hero">
-        <div className="dt-brand-mark">
-          <span className="dt-mark-icon">D</span>
-          <div>
-            <strong>DemirTech</strong>
-            <small>Web • Mobile • IT • Cyber Security</small>
-          </div>
-        </div>
-
-        <span className="demirtech-badge">Modern Technology Studio</span>
+        <span>DEMIRTECH</span>
 
         <h1>
-          Dijital Projelerin İçin
-          <br />
-          Güçlü Teknoloji Çözümleri
+          Modern web, IT ve siber güvenlik çözümleri sunan dijital teknoloji markası.
         </h1>
 
         <p>
-          DemirTech; web tasarım, mobil uygulama, IT danışmanlık ve siber
-          güvenlik farkındalığı alanlarında modern, hızlı ve güvenilir çözümler
-          sunar.
+          DemirTech; web geliştirme, kurumsal IT çözümleri, sunucu altyapıları,
+          dijital dönüşüm ve güvenlik odaklı sistemler üzerine çalışan teknoloji markasıdır.
         </p>
 
-        <div className="demirtech-actions">
-          <a href="#calculator">Maliyet Hesapla</a>
-          <a
-            href="https://wa.me/905364375319?text=Merhaba%20DemirTECH%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp’tan Teklif Al
-          </a>
-        </div>
+        <a
+          href="https://demirtech.tr"
+          target="_blank"
+          rel="noreferrer"
+          className="demirtech-btn"
+        >
+          DemirTech’i Ziyaret Et <FaArrowRight />
+        </a>
       </section>
 
-      <section id="services" className="demirtech-services">
-        <div>
-          <span>01</span>
-          <h3>Web Sitesi</h3>
-          <p>Kurumsal, kişisel ve sektörel modern web siteleri.</p>
+      <section className="demirtech-grid">
+        <div className="demirtech-card">
+          <h2>Web Development</h2>
+
+          <p>
+            Modern, hızlı ve SEO odaklı web siteleri geliştiriyoruz.
+          </p>
         </div>
 
-        <div>
-          <span>02</span>
-          <h3>Mobil Uygulama</h3>
-          <p>iOS ve Android için modern mobil uygulama çözümleri.</p>
+        <div className="demirtech-card">
+          <h2>IT Solutions</h2>
+
+          <p>
+            Kurumsal IT destek, sistem yönetimi ve teknik operasyon çözümleri sunuyoruz.
+          </p>
         </div>
 
-        <div>
-          <span>03</span>
-          <h3>IT & Siber Güvenlik</h3>
-          <p>Sistem, altyapı, Microsoft 365 ve temel güvenlik danışmanlığı.</p>
+        <div className="demirtech-card">
+          <h2>Cyber Security</h2>
+
+          <p>
+            Güvenlik odaklı altyapılar ve siber güvenlik farkındalığı üzerine çalışıyoruz.
+          </p>
         </div>
       </section>
-
-      <section id="calculator">
-        <DemirTechCalculator />
-      </section>
-
-      <PricingInfo />
-    </div>
+    </main>
   );
 }
 
