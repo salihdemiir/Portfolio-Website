@@ -7,7 +7,7 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
-import "../styles/Home.css";
+import "../styles/home.css";
 
 function Home() {
   return (
