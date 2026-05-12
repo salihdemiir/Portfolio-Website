@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import {
   FaGithub,
   FaLinkedinIn,
@@ -6,7 +7,7 @@ import {
   FaArrowRight,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-
+import profileImage from "../assets/images/profile.png";
 import "../styles/home.css";
 
 function Home() {
@@ -86,7 +87,13 @@ function Home() {
 
           <div className="hero-card">
             <div className="profile-card">
-              <div className="profile-avatar">SD</div>
+              <div className="profile-photo-wrap">
+  <img
+    src={profileImage}
+    alt="Salih Demir"
+    className="profile-photo"
+  />
+</div>
 
               <h2>Salih Demir</h2>
 
