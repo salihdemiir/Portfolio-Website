@@ -1,79 +1,107 @@
 import {
   FaEnvelope,
-  FaLinkedinIn,
-  FaGithub,
+  FaPhoneAlt,
   FaMapMarkerAlt,
+  FaClock,
+  FaGithub,
+  FaLinkedinIn,
+  FaDownload,
 } from "react-icons/fa";
 
 import "../styles/Contact.css";
 
 function Contact() {
   return (
-    <main className="portfolio-contact-page">
+    <main className="contact-page">
       <section className="contact-hero">
         <span>İLETİŞİM</span>
-
-        <h1>
-          Yeni projeler, iş fırsatları ve teknoloji üzerine bağlantı kuralım.
-        </h1>
+        <h1>Benimle İletişime Geç</h1>
+        <p>
+          İş fırsatları, proje iş birlikleri veya teknoloji odaklı fikirler için
+          benimle iletişime geçebilirsiniz.
+        </p>
       </section>
 
-      <section className="contact-layout">
-        <div className="contact-left">
-          <div className="contact-card">
+      <section className="contact-content">
+        <div className="contact-info">
+          <div className="contact-info-card">
+            <FaPhoneAlt />
+            <div>
+              <span>Telefon</span>
+              <strong>+90 536 437 53 19</strong>
+            </div>
+          </div>
+
+          <div className="contact-info-card">
             <FaEnvelope />
-
             <div>
-              <h3>E-Posta</h3>
-
-              <p>salihdemir5335@gmail.com</p>
+              <span>E-Posta</span>
+              <strong>salihdemiir@hotmail.com</strong>
             </div>
           </div>
 
-          <div className="contact-card">
-            <FaLinkedinIn />
-
-            <div>
-              <h3>LinkedIn</h3>
-
-              <p>linkedin.com/in/salih-demir</p>
-            </div>
-          </div>
-
-          <div className="contact-card">
-            <FaGithub />
-
-            <div>
-              <h3>GitHub</h3>
-
-              <p>github.com/salihdemiir</p>
-            </div>
-          </div>
-
-          <div className="contact-card">
+          <div className="contact-info-card">
             <FaMapMarkerAlt />
-
             <div>
-              <h3>Konum</h3>
-
-              <p>İstanbul / Türkiye</p>
+              <span>Konum</span>
+              <strong>Ataşehir / İstanbul</strong>
             </div>
           </div>
+
+          <div className="contact-info-card">
+            <FaClock />
+            <div>
+              <span>Uygunluk</span>
+              <strong>İş fırsatları ve projeler için açık</strong>
+            </div>
+          </div>
+
+          <div className="contact-socials">
+            <a
+              href="https://github.com/salihdemiir"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+              <FaGithub />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/salih-demiir"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedinIn />
+            </a>
+
+            <a
+              href="mailto:salihdemiir@hotmail.com"
+              aria-label="E-posta"
+            >
+              <FaEnvelope />
+            </a>
+          </div>
+
+          <a
+            href="/Salih_Demir_CV.pdf"
+            download
+            className="cv-download-btn"
+          >
+            CV İndir <FaDownload />
+          </a>
         </div>
 
-        <div className="contact-right">
-          <form className="contact-form">
-            <input type="text" placeholder="Ad Soyad" />
+        <form className="contact-form">
+          <h2>Bana Yaz</h2>
 
-            <input type="email" placeholder="E-Posta" />
+          <input type="text" placeholder="Ad Soyad" />
+          <input type="email" placeholder="E-Posta" />
+          <input type="tel" placeholder="Telefon" />
+          <textarea placeholder="Mesajınızı yazınız"></textarea>
 
-            <textarea placeholder="Mesajınızı yazın"></textarea>
-
-            <button type="submit">
-              Mesaj Gönder
-            </button>
-          </form>
-        </div>
+          <button type="submit">Mesaj Gönder</button>
+        </form>
       </section>
     </main>
   );

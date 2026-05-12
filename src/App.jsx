@@ -9,7 +9,7 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import DemirTech from "./pages/DemirTech";
-import Contact from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
