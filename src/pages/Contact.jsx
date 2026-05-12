@@ -70,15 +70,16 @@ function Contact() {
         phone: "",
         message: "",
       });
-    } catch (error) {
-      console.error("EmailJS Error:", error);
+   } catch (error) {
+  console.error("EmailJS Error:", error);
+  alert(JSON.stringify(error));
 
-      setStatus({
-        loading: false,
-        success: "",
-        error: "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
-      });
-    }
+  setStatus({
+    loading: false,
+    success: "",
+    error: "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
+  });
+}
   };
 
   return (
