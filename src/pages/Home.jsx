@@ -55,7 +55,7 @@ function Home() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/salih-demir"
+                href="https://www.linkedin.com/in/salih-demiir"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -63,7 +63,7 @@ function Home() {
                 <FaLinkedinIn />
               </a>
 
-              <a href="mailto:salihdemir5335@gmail.com" aria-label="Email">
+              <a href="mailto:salihdemiir@hotmail.com" aria-label="Email">
                 <FaEnvelope />
               </a>
             </div>
