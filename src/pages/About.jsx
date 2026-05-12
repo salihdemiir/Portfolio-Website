@@ -7,8 +7,9 @@ function About() {
         <span>HAKKIMDA</span>
 
         <h1>
-          IT altyapısı, yazılım geliştirme ve siber güvenlik alanlarında
-          kendini geliştiren bir teknoloji profesyoneliyim.
+          İstanbul’da yetişen, yazılım mühendisliği eğitimi almış ve kariyerini
+          IT, yazılım ve siber güvenlik alanlarında geliştiren bir teknoloji
+          profesyoneliyim.
         </h1>
       </section>
 
@@ -17,34 +18,50 @@ function About() {
           <h2>Ben kimim?</h2>
 
           <p>
-            Ben Salih Demir. Yazılım mühendisliği mezunuyum ve kariyerimi IT,
-            sistem yönetimi, yazılım geliştirme ve siber güvenlik odağında
-            ilerletiyorum. Kurumsal IT destek tecrübem sayesinde kullanıcı,
-            sistem, ağ ve operasyon süreçlerini gerçek iş ortamlarında deneyimledim.
+            Ben Salih Demir. 1998 yılında İstanbul Kadıköy’de dünyaya geldim ve
+            yaşamımı İstanbul’da sürdürüyorum. Teknolojiye olan ilgim, eğitim
+            hayatım ve kurumsal iş deneyimlerimle birlikte zamanla daha güçlü
+            bir kariyer hedefi haline geldi.
           </p>
 
           <p>
-            Bugün hem teknik operasyon tarafında güçlü kalmak hem de modern web
-            teknolojileriyle üretim yapmak istiyorum. Uzun vadeli hedefim;
-            yazılım, altyapı ve güvenlik taraflarını birleştiren güçlü bir
-            teknoloji uzmanı olmak.
+            Yazılım mühendisliği eğitimimi Doğuş Üniversitesi’nde tam burslu
+            olarak tamamladım. Üniversite hayatım boyunca yazılım geliştirme,
+            algoritmalar, veri yapıları, web teknolojileri, veritabanı yönetimi
+            ve ağ güvenliği gibi alanlarda kendimi geliştirdim.
+          </p>
+
+          <p>
+            Kariyerimde kurumsal IT operasyonları, son kullanıcı desteği, cihaz
+            yönetimi, sistem erişimleri ve altyapı sürekliliği süreçlerinde
+            görev aldım. Arvato Logistics, Novartis ve Inditex gibi kurumsal
+            yapılarda edindiğim deneyimler sayesinde teknik problemlere daha
+            analitik, hızlı ve çözüm odaklı yaklaşmayı öğrendim.
+          </p>
+
+          <p>
+            Bugün kariyerimi; IT altyapısı, modern web geliştirme ve siber
+            güvenlik odağında ilerletiyorum. Uzun vadeli hedefim; yazılım,
+            sistem ve güvenlik disiplinlerini bir araya getiren, güvenilir ve
+            sürdürülebilir dijital çözümler üreten güçlü bir teknoloji uzmanı
+            olmak.
           </p>
         </div>
 
         <div className="about-stats">
           <div>
-            <strong>3+</strong>
-            <span>Kurumsal Deneyim</span>
+            <strong>1998</strong>
+            <span>İstanbul / Kadıköy</span>
+          </div>
+
+          <div>
+            <strong>Doğuş</strong>
+            <span>Yazılım Mühendisliği</span>
           </div>
 
           <div>
             <strong>IT</strong>
-            <span>Support & System</span>
-          </div>
-
-          <div>
-            <strong>Web</strong>
-            <span>React Projects</span>
+            <span>Kurumsal Operasyon</span>
           </div>
 
           <div>
