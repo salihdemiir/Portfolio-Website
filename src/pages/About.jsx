@@ -1,4 +1,5 @@
 import "../styles/About.css";
+import salihImage from "../assets/images/salih.jpg";
 
 function About() {
   return (
@@ -15,13 +16,26 @@ function About() {
 
       <section className="about-content">
         <div className="about-card">
-          <h2>Ben kimim?</h2>
+          <div className="about-profile">
+            <div className="about-image-wrap">
+              <img
+                src={salihImage}
+                alt="Salih Demir"
+                className="about-image"
+              />
+            </div>
+
+            <div>
+              <span className="about-profile-label">Software Engineer · IT Specialist</span>
+              <h2>Ben kimim?</h2>
+            </div>
+          </div>
 
           <p>
             Ben Salih Demir. 1998 yılında İstanbul Kadıköy’de dünyaya geldim ve
-            yaşamımı İstanbul Ataşehir'de sürdürüyorum.Teknolojiye olan ilgim, eğitim
-            hayatım ve kurumsal iş deneyimlerimle birlikte zamanla daha güçlü
-            bir kariyer hedefi haline geldi.
+            yaşamımı İstanbul Ataşehir'de sürdürüyorum. Teknolojiye olan ilgim,
+            eğitim hayatım ve kurumsal iş deneyimlerimle birlikte zamanla daha
+            güçlü bir kariyer hedefi haline geldi.
           </p>
 
           <p>
@@ -34,17 +48,18 @@ function About() {
           <p>
             Kariyerimde kurumsal IT operasyonları, son kullanıcı desteği, cihaz
             yönetimi, sistem erişimleri ve altyapı sürekliliği süreçlerinde
-            görev aldım. <strong>Arvato Logistics, Novartis ve Inditex</strong> gibi kurumsal
-            yapılarda edindiğim deneyimler sayesinde teknik problemlere daha
-            analitik, hızlı ve çözüm odaklı yaklaşmayı öğrendim.
+            görev aldım. <strong>Arvato Logistics, Novartis ve Inditex</strong>{" "}
+            gibi kurumsal yapılarda edindiğim deneyimler sayesinde teknik
+            problemlere daha analitik, hızlı ve çözüm odaklı yaklaşmayı
+            öğrendim.
           </p>
 
           <p>
-            Bugün kariyerimi; IT altyapısı, mobil uygulama geliştirme, modern web geliştirme ve siber
-            güvenlik odağında ilerletiyorum. Uzun vadeli hedefim; yazılım,
-            sistem ve güvenlik disiplinlerini bir araya getiren, güvenilir ve
-            sürdürülebilir dijital çözümler üreten güçlü bir teknoloji uzmanı
-            olmak.
+            Bugün kariyerimi; IT altyapısı, mobil uygulama geliştirme, modern
+            web geliştirme ve siber güvenlik odağında ilerletiyorum. Uzun vadeli
+            hedefim; yazılım, sistem ve güvenlik disiplinlerini bir araya
+            getiren, güvenilir ve sürdürülebilir dijital çözümler üreten güçlü
+            bir teknoloji uzmanı olmak.
           </p>
         </div>
 
@@ -56,7 +71,7 @@ function About() {
 
           <div>
             <strong>Doğuş Üniversitesi</strong>
-            <span>Yazılım Mühendisliği | Tam Burslu  | 2020 - 2024</span>
+            <span>Yazılım Mühendisliği | Tam Burslu | 2020 - 2024</span>
           </div>
 
           <div>
