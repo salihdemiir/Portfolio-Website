@@ -25,6 +25,27 @@ function Experience() {
       text:
         "Zara, Bershka ve Massimo Dutti mağazalarında IT operasyonları, cihaz yönetimi ve kullanıcı desteği sağladım.",
     },
+    {
+      company: "Mobven",
+      role: "Android Developer Intern",
+      date: "2023 - 2024",
+      text:
+        "MARVEL benzeri bir film ve dizi uygulaması geliştirme fırsatı elde ettim. Bu staj deneyimi, Android geliştirme becerilerimi uygulama ve gerçek dünya projelerinde çalışma fırsatı sundu.",
+    },
+    {
+      company: "Diversey",
+      role: "Information Technology Intern",
+      date: "2022 - 2023",
+      text:
+        "Sistem yönetimi, ağ altyapısı ve kullanıcı destek hizmetleri konularında pratik deneyim kazandım.Bu staj, IT operasyonlarının temel prensiplerini öğrenme ve uygulama fırsatı sağladı.",
+    },
+    {
+      company: "Ranna Digital Works",
+      role: "React Native Mobile Application Developer Intern",
+      date: "2021 - 2022",
+      text:
+        "React Native Developer olarak staj yaptım ve sağlık turizmi ile market uygulamaları üzerine projelerde görev aldım. Bu deneyim, mobil uygulama geliştirme süreçlerini öğrenme ve gerçek dünya projelerinde çalışma fırsatı sundu.",
+    },
   ];
 
   return (
