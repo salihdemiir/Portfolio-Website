@@ -75,6 +75,10 @@ function About() {
           </div>
 
           <div>
+            <strong>Software</strong>
+            <span>Mobil App , Website , Frontend , Backend , Veritabanı</span>
+          </div>
+           <div>
             <strong>IT</strong>
             <span>Kurumsal Operasyon</span>
           </div>
