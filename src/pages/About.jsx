@@ -55,8 +55,8 @@ function About() {
           </div>
 
           <div>
-            <strong>Doğuş</strong>
-            <span>Yazılım Mühendisliği</span>
+            <strong>Doğuş Üniversitesi</strong>
+            <span>Yazılım Mühendisliği | Tam Burslu  | 2020 - 2024</span>
           </div>
 
           <div>
