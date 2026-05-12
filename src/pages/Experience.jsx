@@ -3,8 +3,16 @@ import "../styles/Experience.css";
 function Experience() {
   const experiences = [
     {
-      company: "Novartis",
+      company: "Arvato Logistics",
       role: "IT Helpdesk & System Support",
+      date: "2025 - 2026",
+      text:
+        "Depo ve ofis ortamlarında kullanıcı desteği, donanım-yazılım kurulumu, sistem sürekliliği ve IT operasyon süreçlerine destek sağladım.",
+    },
+
+    {
+      company: "Novartis",
+      role: "IT Support Specialist",
       date: "2024 - 2025",
       text:
         "Kurumsal kullanıcı desteği, Microsoft 365 yönetimi, cihaz yönetimi ve sistem desteği süreçlerinde görev aldım.",
@@ -12,18 +20,10 @@ function Experience() {
 
     {
       company: "Inditex",
-      role: "IT Support Specialist",
+      role: "IT Specialist",
       date: "2023 - 2024",
       text:
         "Zara, Bershka ve Massimo Dutti mağazalarında IT operasyonları, cihaz yönetimi ve kullanıcı desteği sağladım.",
-    },
-
-    {
-      company: "Arvato Logistics",
-      role: "IT Specialist",
-      date: "2022 - 2023",
-      text:
-        "Depo ve ofis IT altyapılarında teknik destek, network süreçleri ve sistem operasyonlarında görev aldım.",
     },
   ];
 
@@ -33,8 +33,8 @@ function Experience() {
         <span>DENEYİM</span>
 
         <h1>
-          IT operasyonları, kullanıcı desteği ve sistem yönetimi
-          alanlarında deneyim.
+          System administration, IT support ve siber güvenlik alanlarında edindiğim deneyimlerimle
+          teknik altyapımı güçlendiriyorum.
         </h1>
       </section>
 
