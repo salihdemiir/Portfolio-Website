@@ -19,7 +19,7 @@ function About() {
 
           <p>
             Ben Salih Demir. 1998 yılında İstanbul Kadıköy’de dünyaya geldim ve
-            yaşamımı İstanbul’da sürdürüyorum. Teknolojiye olan ilgim, eğitim
+            yaşamımı İstanbul Ataşehir'de sürdürüyorum.Teknolojiye olan ilgim, eğitim
             hayatım ve kurumsal iş deneyimlerimle birlikte zamanla daha güçlü
             bir kariyer hedefi haline geldi.
           </p>
@@ -34,13 +34,13 @@ function About() {
           <p>
             Kariyerimde kurumsal IT operasyonları, son kullanıcı desteği, cihaz
             yönetimi, sistem erişimleri ve altyapı sürekliliği süreçlerinde
-            görev aldım. Arvato Logistics, Novartis ve Inditex gibi kurumsal
+            görev aldım. <strong>Arvato Logistics, Novartis ve Inditex</strong> gibi kurumsal
             yapılarda edindiğim deneyimler sayesinde teknik problemlere daha
             analitik, hızlı ve çözüm odaklı yaklaşmayı öğrendim.
           </p>
 
           <p>
-            Bugün kariyerimi; IT altyapısı, modern web geliştirme ve siber
+            Bugün kariyerimi; IT altyapısı, mobil uygulama geliştirme, modern web geliştirme ve siber
             güvenlik odağında ilerletiyorum. Uzun vadeli hedefim; yazılım,
             sistem ve güvenlik disiplinlerini bir araya getiren, güvenilir ve
             sürdürülebilir dijital çözümler üreten güçlü bir teknoloji uzmanı
