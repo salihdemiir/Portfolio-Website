@@ -31,14 +31,14 @@ function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/salih-demir"
+            href="https://linkedin.com/in/salih-demiir"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedinIn />
           </a>
 
-          <a href="mailto:salihdemir5335@gmail.com">
+          <a href="mailto:salihdemiir@hotmail.com">
             <FaEnvelope />
           </a>
         </div>
